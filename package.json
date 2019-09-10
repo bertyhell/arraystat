@@ -1,6 +1,6 @@
 {
-  "name": "arraymath",
-  "version": "1.0.0",
+  "name": "arraystat",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafipiccolo/arraymath.git"
+    "url": "git+https://github.com/rafipiccolo/arraystat.git"
   },
   "author": "Raphael Piccolo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rafipiccolo/arraymath/issues"
+    "url": "https://github.com/rafipiccolo/arraystat/issues"
   },
-  "homepage": "https://github.com/rafipiccolo/arraymath#readme"
+  "homepage": "https://github.com/rafipiccolo/arraystat#readme"
 }

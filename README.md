@@ -6,13 +6,13 @@ This module calculate Min, Max & Avg of an array
 
 Go into a node project and type the following :
 
-    $> npm install arraymath
+    $> npm install arraystat
 
 # Exemple
 
-    var arraymath = require('arraymath');
+    var arraystat = require('arraystat');
 
-    console.log(arraymath([1,2,3,4,5])); // display : {max: 5, min: 1, avg: 3}
+    console.log(arraystat([1,2,3,4,5])); // display : {max: 5, min: 1, avg: 3}
 
 # Run
 
