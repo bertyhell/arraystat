@@ -2,7 +2,6 @@ var arraystat = require('./index.js');
 var assert = require('assert');
 
 describe('arraystat', function () {
-
     it('should determine avg from a simple array', function () {
         var res = arraystat([1, 2, 3, 4, 5]);
         assert.equal(res.avg, 3);
@@ -33,7 +32,6 @@ describe('arraystat', function () {
         var res = arraystat([1, 2, 3, 4, 5, 6]);
         assert.equal(res.range, 5);
     });
-
     it('should determine histogram', function () {
         var res = arraystat([1, 1, 3, 3, 3, 5, 6]);
         assert.deepEqual(res.histogram, [
