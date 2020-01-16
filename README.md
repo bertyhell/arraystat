@@ -52,3 +52,8 @@ Go into a node project and type the following :
 # Run
 
     $> node test.js
+
+# Contributors
+
+[rustyconover](https://github.com/rustyconover) => fix sort v1.1.3
+
