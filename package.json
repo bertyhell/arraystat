@@ -1,6 +1,6 @@
 {
   "name": "arraystat",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "This module calculate Min, Max, Avg, % of standard deviation, median, quartiles, range and histogram from an array",
   "main": "index.js",
   "scripts": {

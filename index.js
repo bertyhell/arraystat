@@ -13,7 +13,7 @@ module.exports = function arraystat(arr) {
         result.stddev = avgdeviation / result.avg;
         
         // standard deviation percent = avg(deviation) / avg
-        arr = [...arr].sort();
+        arr = [...arr].sort((a, b) => a - b);
         result.min = arr[0];
         result.q1 = quantile(arr, 0.25);
         result.median = quantile(arr, 0.5);

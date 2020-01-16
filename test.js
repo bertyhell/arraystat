@@ -11,9 +11,9 @@ describe('arraystat', function () {
         assert.equal(res.stddev.toFixed(1), 0.4);
     });
     it('should determine min/max from an array', function () {
-        var res = arraystat([1, 2, 3, 4, 5]);
+        var res = arraystat([1, 2, 3, 4, 5, 10]);
         assert.equal(res.min, 1);
-        assert.equal(res.max, 5);
+        assert.equal(res.max, 10);
     });
     it('should determine median from a odd number array', function () {
         var res = arraystat([1, 2, 3, 4, 5]);
