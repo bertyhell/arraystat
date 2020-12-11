@@ -1,19 +1,19 @@
 {
-  "name": "arraystat",
-  "version": "1.1.4",
-  "description": "This module calculate Min, Max, Avg, % of standard deviation, median, quartiles, range and histogram from an array",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafipiccolo/arraystat.git"
-  },
-  "author": "Raphael Piccolo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rafipiccolo/arraystat/issues"
-  },
-  "homepage": "https://github.com/rafipiccolo/arraystat#readme"
+    "name": "arraystat",
+    "version": "1.1.4",
+    "description": "This module calculate Min, Max, Avg, % of standard deviation, median, quartiles, range and histogram from an array",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rafipiccolo/arraystat.git"
+    },
+    "author": "Raphael Piccolo",
+    "license": "ICS",
+    "bugs": {
+        "url": "https://github.com/rafipiccolo/arraystat/issues"
+    },
+    "homepage": "https://github.com/rafipiccolo/arraystat#readme"
 }
