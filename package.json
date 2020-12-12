@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/rafipiccolo/arraystat/issues"
     },
-    "homepage": "https://github.com/rafipiccolo/arraystat#readme"
+    "homepage": "https://github.com/rafipiccolo/arraystat#readme",
+    "devDependencies": {
+        "prettier": "^2.2.1"
+    }
 }

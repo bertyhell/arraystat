@@ -39,7 +39,7 @@ describe('arraystat', function () {
             { min: 2, max: 3, nb: 0 },
             { min: 3, max: 4, nb: 3 },
             { min: 4, max: 5, nb: 0 },
-            { min: 5, max: 6, nb: 2 }
+            { min: 5, max: 6, nb: 2 },
         ]);
     });
 });
