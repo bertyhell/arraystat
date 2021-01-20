@@ -30,8 +30,8 @@ module.exports = function arraystat(arr) {
             var min = i;
             var max = i + width;
             var bin = {
-                min: min,
-                max: max,
+                min,
+                max,
                 nb: arr.filter(function (x) {
                     if (nbBins) return x >= min && x < max;
                     else return x >= min;
