@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function arraystat(arr) {
     var result = {};
 
