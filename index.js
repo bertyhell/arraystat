@@ -36,7 +36,7 @@ module.exports = function arraystat(arr) {
                 max,
                 nb: arr.filter(function (x) {
                     if (nbBins) return x >= min && x < max;
-                    else return x >= min;
+                    return x >= min;
                 }).length,
             };
 
@@ -56,7 +56,7 @@ function quantile(arr, q) {
 
     if (typeof arr[base + 1] !== 'undefined') {
         return arr[base] + rest * (arr[base + 1] - arr[base]);
-    } else {
-        return arr[base];
     }
+    
+    return arr[base];
 }
