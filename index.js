@@ -57,6 +57,6 @@ function quantile(arr, q) {
     if (typeof arr[base + 1] !== 'undefined') {
         return arr[base] + rest * (arr[base + 1] - arr[base]);
     }
-    
+
     return arr[base];
 }
