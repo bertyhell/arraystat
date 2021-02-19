@@ -1,5 +1,3 @@
-'use strict';
-
 var arraystat = require('./index.js');
 var assert = require('assert');
 
