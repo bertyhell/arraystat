@@ -1,5 +1,5 @@
 module.exports = function arraystat(arr) {
-    var result = {};
+    let result = {};
 
     if (arr.length) {
         // avg
@@ -8,8 +8,8 @@ module.exports = function arraystat(arr) {
         result.avg = result.sum / result.nb;
 
         // standard deviation percent = avg(deviation) / avg
-        var sumdeviation = arr.reduce((a, x) => a + Math.abs(x - result.avg), 0);
-        var avgdeviation = sumdeviation / result.nb;
+        let sumdeviation = arr.reduce((a, x) => a + Math.abs(x - result.avg), 0);
+        let avgdeviation = sumdeviation / result.nb;
         result.stddev = avgdeviation / result.avg;
 
         // standard deviation percent = avg(deviation) / avg
@@ -23,13 +23,13 @@ module.exports = function arraystat(arr) {
 
         // histogram
         result.histogram = [];
-        var nbBins = 5;
-        var i = result.min;
-        var width = result.range / nbBins;
+        let nbBins = 5;
+        let i = result.min;
+        let width = result.range / nbBins;
         while (nbBins--) {
-            var min = i;
-            var max = i + width;
-            var bin = {
+            let min = i;
+            let max = i + width;
+            let bin = {
                 min,
                 max,
                 nb: arr.filter(function (x) {
@@ -48,9 +48,9 @@ module.exports = function arraystat(arr) {
 
 // Attention: array needs to be sorted
 function quantile(arr, q) {
-    var pos = (arr.length - 1) * q;
-    var base = Math.floor(pos);
-    var rest = pos - base;
+    let pos = (arr.length - 1) * q;
+    let base = Math.floor(pos);
+    let rest = pos - base;
 
     if (typeof arr[base + 1] !== 'undefined') {
         return arr[base] + rest * (arr[base + 1] - arr[base]);
