@@ -32,7 +32,7 @@ module.exports = function arraystat(arr) {
             let bin = {
                 min,
                 max,
-                nb: arr.filter(function (x) {
+                nb: arr.filter((x) => {
                     if (nbBins) return x >= min && x < max;
                     return x >= min;
                 }).length,
