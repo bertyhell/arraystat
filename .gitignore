@@ -1,9 +1,9 @@
 *~
+\#*#
 node_modules
-core
+/core
 log/
 logs/
-\#*#
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -15,3 +15,8 @@ Thumbs.db
 config.js
 node_modules/
 .env*
+.vercel
+*.pem
+*.key
+*.p12
+*.p8
