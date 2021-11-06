@@ -20,3 +20,4 @@ node_modules/
 *.key
 *.p12
 *.p8
+.composer/
