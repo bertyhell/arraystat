@@ -1,5 +1,5 @@
-let arraystat = require('./index.js');
-let assert = require('assert');
+import arraystat from './index.js';
+import assert from 'assert';
 
 describe('arraystat', () => {
     it('should determine avg from a simple array', () => {

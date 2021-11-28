@@ -22,7 +22,7 @@ Go into a node project and type the following :
 
 # Exemple
 
-    var arraystat = require('arraystat');
+    import arraystat from 'arraystat';
 
     console.log(arraystat([1,2,3,4,5]));
 

@@ -1,4 +1,4 @@
-module.exports = function arraystat(arr) {
+export default function arraystat(arr) {
     let result = {};
 
     if (arr.length) {
@@ -44,7 +44,7 @@ module.exports = function arraystat(arr) {
     }
 
     return result;
-};
+}
 
 // Attention: array needs to be sorted
 function quantile(arr, q) {
