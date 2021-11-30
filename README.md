@@ -20,7 +20,7 @@ Go into a node project and type the following :
 
     $> npm install arraystat
 
-# Exemple
+# Example
 
     import arraystat from 'arraystat';
 
