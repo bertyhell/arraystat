@@ -1,5 +1,9 @@
-export default function arraystat(arr) {
+export default function arraystat(arr, options) {
     let result = {};
+    const opts = {
+      numberOfBins: 5,
+      ...(options || {}),
+    }
 
     if (arr.length) {
         // avg
@@ -23,7 +27,7 @@ export default function arraystat(arr) {
 
         // histogram
         result.histogram = [];
-        let nbBins = 5;
+        let nbBins = opts.numberOfBins;
         let i = result.min;
         let width = result.range / nbBins;
         while (nbBins--) {
