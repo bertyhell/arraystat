@@ -12,7 +12,7 @@ This module calculate Min, Max, Avg, % of standard deviation, median, quartiles,
 -   q3 : the last quartile
 -   max : the maximum value in the array
 -   range : the range of the array (max - min)
--   histogram : a repartition of all the values of the array in 5 buckets
+-   histogram : a repartition of all the values of the array in 5 buckets (configurable using options.numberOfBins second parameter)
 
 # Install
 
@@ -24,7 +24,7 @@ Go into a node project and type the following :
 
     import arraystat from 'arraystat';
 
-    console.log(arraystat([1,2,3,4,5]));
+    console.log(arraystat([1,2,3,4,5], { numberOfBins: 5 }));
 
     /*
         {
